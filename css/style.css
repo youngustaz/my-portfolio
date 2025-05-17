@@ -1,0 +1,96 @@
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #f8f9fa;
+      color: #343a40;
+    }
+    .navbar {
+      background-color: #333;
+      padding: 10px;
+      position: relative;
+    }
+
+    .navbar .nav-toggle {
+      background: none;
+      color: white;
+      border: none;
+      font-size: 24px;
+      cursor: pointer;
+      display: none;
+    }
+
+    /* Menu hidden by default on small screens */
+    .nav-menu {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      display: flex;
+      gap: 15px;
+    }
+    .hero {
+      background: #b4b6b8;
+      /*background: url('My pic.jpg') no-repeat center center;*/
+      background-size: cover;
+      padding: 60px 0;
+      text-align: center;
+      font-family: 'Times New Roman', Times, serif, serif;
+      text-decoration: solid;
+    }
+    .hero h1 {
+        font-size: 3em;
+    }
+    .hero img {
+      border-radius: 60%;
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+    }
+    .section-title {
+      margin-top: 40px;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+    footer {
+      background-color: #212529;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      margin-top: 40px;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .feature-box {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+                                
+    .feature-box:hover {
+      transform: scale(1.05) translateY(-5px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    }
+
+    .feature-box img {
+      transition: transform 0.3s ease;
+    }
+
+    .feature-box img:hover {
+      transform: scale(1.05); /* Adjust the scale as you like */
+    }
+    #backToTopBtn {
+      display: none; /* Hidden by default */
+      position: fixed;
+      bottom: 40px;
+      right: 30px;
+      z-index: 99;
+      font-size: 24px;
+      border: none;
+      outline: none;
+      background-color: transparent;
+      color: #007bff;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    #backToTopBtn:hover {
+      transform: scale(1.2);
+      color: #0056b3;
+    }
